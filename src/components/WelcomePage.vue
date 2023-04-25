@@ -9,7 +9,4 @@
 </template>
 
 <style scoped>
-  .welcome {
-    margin: 30px;
-  }
 </style>

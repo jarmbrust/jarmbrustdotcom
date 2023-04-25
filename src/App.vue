@@ -1,12 +1,10 @@
 <script setup lang="ts">
-// import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 import WelcomePage from './components/WelcomePage.vue';
 </script>
 
 <template>
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+  <!-- <header> -->
     <div class="wrapper">
       <WelcomePage/>
 
@@ -15,9 +13,7 @@ import WelcomePage from './components/WelcomePage.vue';
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header> -->
-
-  <WelcomePage/>
+  <!-- </header> -->
 </template>
 
 <style scoped>
@@ -59,12 +55,8 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
+    /* place-items: center; */
+    /* padding-right: calc(var(--section-gap) / 2); */
   }
 
   header .wrapper {
