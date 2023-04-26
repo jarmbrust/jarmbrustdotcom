@@ -3,9 +3,8 @@ import PageHeader from './PageHeader.vue';
 </script>
 
 <template>
-  <PageHeader title="Hello!" />
-  <div class="welcome">
-    This is a welcome page to test the deployments.
+  <PageHeader title="About me..." />
+  <div class="about">
+    I am soooo interesting!
   </div>
 </template>
-

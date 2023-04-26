@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import AboutPage from '../components/AboutPage.vue'
+import BlogPage from '../components/BlogPage.vue'
 </script>
 
 <template>
   <div>
-    <AboutPage />
+    <BlogPage />
   </div>
 </template>
 

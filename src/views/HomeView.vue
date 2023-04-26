@@ -3,7 +3,7 @@ import WelcomePage from '../components/WelcomePage.vue'
 </script>
 
 <template>
-  <main>
+  <div>
     <WelcomePage />
-  </main>
+  </div>
 </template>
