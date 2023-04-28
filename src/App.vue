@@ -4,18 +4,20 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div>
-  <header>
-    <div class="wrapper blue">
-      <nav>
-        <router-link to="/">Home</router-link>
-        <router-link to="/blog">Blog</router-link>
-        <router-link to="/misc">Misc</router-link>
-        <router-link to="/about">About</router-link>
-      </nav>
-    </div>
-  </header>
-  <router-view />
-</div>
+    <header>
+      <div class="wrapper blue">
+        <nav>
+          <router-link to="/">Home</router-link>
+          <router-link to="/blog">Blog</router-link>
+          <router-link to="/misc">Misc</router-link>
+          <router-link to="/about">About</router-link>
+        </nav>
+      </div>
+    </header>
+    <body>
+      <router-view />
+    </body>
+  </div>
 </template>
 
 <style scoped>
@@ -23,7 +25,11 @@ header {
   line-height: 1.5;
   max-height: 10rem;
   width: 100%;
-  margin-top: 10px;
+  margin: 1.5rem 4rem;
+}
+
+body {
+  margin: 0 4rem;
 }
 
 nav {
@@ -68,9 +74,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
-    padding: 1rem 0;
-    /* margin-top: 1rem; */
   }
 }
 </style>
