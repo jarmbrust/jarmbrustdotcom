@@ -5,6 +5,6 @@ import PageHeader from './PageHeader.vue';
 <template>
   <PageHeader title="Blog." />
   <div class="blog">
-    This will be a blog page for my very insightful insights!
+    This will be a blog page if I ever decide to write a blog!
   </div>
 </template>
